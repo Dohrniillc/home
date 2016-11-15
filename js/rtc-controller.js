@@ -73,6 +73,7 @@ var CONTROLLER = window.CONTROLLER = function(phone){
 	
 	function broadcast(vid){
 	    var video = document.createElement('video');
+	    g.setAttribute("id", "vid");
         video.src    = URL.createObjectURL(phone.mystream);
         video.volume = 0.0;
         video.play();
