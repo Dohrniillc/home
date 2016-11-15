@@ -9,9 +9,12 @@
 </script>
 	<script>
    // Grab a handle to the video
-   var video = document.getElementByTagName("video");
+  //var video = document.getElementByTagName("video");
    // Turn off the default controls
-   video.controls = true;
+   //video.controls = true;
+   function myFunction() {
+    document.getElementsByTagName("video")[0].setAttribute("controls", "true");
+}
 </script>
     <title>PubRTC + Mobile</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
