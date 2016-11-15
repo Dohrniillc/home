@@ -12,7 +12,7 @@ var PHONE = window.PHONE = function(config) {
     var subkey        = config.subscribe_key || 'demo';
     var sessionid     = PUBNUB.uuid();
     var mystream      = null;
-    var myvideo       = document.createElement('video');
+    var myvideo       = document.createElement('video controls');
     var myconnection  = false;
     var mediaconf     = config.media || { audio : true, video : true };
     var conversations = {};
