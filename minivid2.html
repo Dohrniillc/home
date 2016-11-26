@@ -40,6 +40,15 @@
 			width:47%;
 			max-height: 100vh;
 		}
+		.card {
+    position: relative;
+    margin: 0.5rem 0 1rem 0;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    width: 400px;
+    height: 300px;
+}
 	</style>	
 </head>
 <body>
@@ -59,7 +68,7 @@
 	    <input type="submit" name="login_submit" value="Log In">
 	</form>
 -->
-<div class="card">
+<div class="card" style="left: 550px;">
     <form name="loginForm" id="login" action="#" onsubmit="return errWrap(login,this);">
         <span class="input input--nao">
             <input class="input__field input__field--nao" type="text" name="username" id="username" placeholder="Enter A Username"/>
