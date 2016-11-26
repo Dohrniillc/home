@@ -16,6 +16,12 @@
     document.getElementsByTagName("video")[0].setAttribute("controls", "true");
 }
 </script>
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+          
     <title>PubRTC + Mobile</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -53,6 +59,7 @@
 	    <input type="submit" name="login_submit" value="Log In">
 	</form>
 -->
+<div class="card">
     <form name="loginForm" id="login" action="#" onsubmit="return errWrap(login,this);">
         <span class="input input--nao">
             <input class="input__field input__field--nao" type="text" name="username" id="username" placeholder="Enter A Username"/>
@@ -99,7 +106,7 @@
         <button id="mute" onclick="mute()">Mute</button> 
         <button id="pause" onclick="pause()">Pause</button>
 	</div>
-    
+	</div>
 	<div id="logs" class="ptext"></div>
 
 <p class="ptext"><b>To Use:</b></p>
